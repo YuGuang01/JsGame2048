@@ -87,7 +87,7 @@
         return false;
       }
       var pos = empty[Math.floor((Math.random() * empty.length))];
-      this.arr[pos.x][pos.y] = Math.random() < 0.5 ?  1024: 512;
+      this.arr[pos.x][pos.y] = Math.random() < 0.5 ?  4: 2;
       this.onGenerate({x: pos.x, y: pos.y, num: this.arr[pos.x][pos.y]});
     },
     // 左移
